@@ -5,14 +5,12 @@ contact:
     city: Trévoux
     cp: '01600'
     gmap: https://www.google.fr/maps/place/Trévoux
-    street: 310, rue des Magnolias Grandiflora
+    street: ()
   birthday: 1977-10-08
   career_start: 2004-01-01
-  dispo_delay: 2
   email: le.neko@gmail.com
   firstname: Nicolas
   github: https://github.com/leNEKO
-  is_dispo: true
   job_title:
     fr: Développeur Backend
     en: Backend Developer

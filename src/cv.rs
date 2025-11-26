@@ -155,7 +155,10 @@ impl Cv {
 
         let available_date = match self.contact.avalaible_date {
             Some(d) => Some(d),
-            None => now.checked_add_months(Months::new(self.contact.dispo_delay.unwrap().into())),
+            None => match self.contact.dispo_delay {
+                Some(d) => now.checked_add_months(Months::new(d.into())),
+                None => None,
+            },
         };
 
         Ok(Info {
