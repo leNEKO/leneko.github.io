@@ -15,7 +15,7 @@ cargo run -- build {path/to/cv.yml}
 Update index.html
 
 ```shell
-cargo make index
+make index
 ```
 
 ## Schemas
@@ -23,11 +23,11 @@ cargo make index
 Update yaml validation schemas
 
 ```shell
-cargo make schemas
+make schemas
 ```
 
 ## Dev
 
 ```shell
-cargo make dev
+make dev
 ```
